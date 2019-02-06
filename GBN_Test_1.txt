@@ -1,0 +1,92 @@
+-----  Stop and Wait Network Simulator Version 1.1 -------- 
+
+Enter the number of messages to simulate: Enter  packet loss probability [enter 0.0 for no loss]:Enter packet corruption probability [0.0 for no corruption]:Enter average time between messages from sender's layer5 [ > 0.0]:Enter TRACE:A: buffering message with data: aaaaaaaaaaaaaaaaaaaa
+
+A: sending packet with seq = 0 ack = 0 data: aaaaaaaaaaaaaaaaaaaa checksum = 1940
+
+A: Starting the window time
+
+B: The recieved packet with seq = 0 , data: aaaaaaaaaaaaaaaaaaaa checksum = 1940 is in order and not corrupt
+
+B: Saving data: aaaaaaaaaaaaaaaaaaaa
+
+B: Sending Acknowldegement with seq = 0 and ack = 0
+
+A: buffering message with data: bbbbbbbbbbbbbbbbbbbb
+
+A: sending packet with seq = 20 ack = 0 data: bbbbbbbbbbbbbbbbbbbb checksum = 1980
+
+A: Acknowledgement recieved with seq = 0 ack = 0 checksum = 0
+
+A: buffering message with data: cccccccccccccccccccc
+
+A: sending packet with seq = 40 ack = 20 data: cccccccccccccccccccc checksum = 2040
+
+A: buffering message with data: dddddddddddddddddddd
+
+A: sending packet with seq = 60 ack = 40 data: dddddddddddddddddddd checksum = 2100
+
+B: The recieved packet with seq = 20 , data: bbbbbbbbbbbbbbbbbbbb checksum = 1980 is in order and not corrupt
+
+B: Saving data: bbbbbbbbbbbbbbbbbbbb
+
+B: Sending Acknowldegement with seq = 20 and ack = 20
+
+A: buffering message with data: eeeeeeeeeeeeeeeeeeee
+
+A: sending packet with seq = 80 ack = 60 data: eeeeeeeeeeeeeeeeeeee checksum = 2160
+
+A: Recieved Non-Acknowledgement with seq = 20 ack = 20
+
+B: The recieved packet with seq = 40 , data: cccccccccccccccccccc checksum = 2040 is in order and not corrupt
+
+B: Saving data: cccccccccccccccccccc
+
+B: Sending Acknowldegement with seq = 40 and ack = 40
+
+A: buffering message with data: ffffffffffffffffffff
+
+A: sending packet with seq = 100 ack = 80 data: ffffffffffffffffffff checksum = 2220
+
+B: The recieved packet with seq = 60 , data: dddddddddddddddddddd checksum = 2100 is in order and not corrupt
+
+B: Saving data: dddddddddddddddddddd
+
+B: Sending Acknowldegement with seq = 60 and ack = 60
+
+A: Recieved Non-Acknowledgement with seq = 40 ack = 40
+
+A: buffering message with data: gggggggggggggggggggg
+
+A: sending packet with seq = 120 ack = 100 data: gggggggggggggggggggg checksum = 2280
+
+B: The recieved packet with seq = 80 , data: eeeeeeeeeeeeeeeeeeee checksum = 2160 is in order and not corrupt
+
+B: Saving data: eeeeeeeeeeeeeeeeeeee
+
+B: Sending Acknowldegement with seq = 80 and ack = 80
+
+A: buffering message with data: hhhhhhhhhhhhhhhhhhhh
+
+A: sending packet with seq = 140 ack = 120 data: hhhhhhhhhhhhhhhhhhhh checksum = 2340
+
+A: Recieved Non-Acknowledgement with seq = 60 ack = 60
+
+A: Recieved Non-Acknowledgement with seq = 80 ack = 80
+
+A: buffering message with data: iiiiiiiiiiiiiiiiiiii
+
+A: sending packet with seq = 160 ack = 140 data: iiiiiiiiiiiiiiiiiiii checksum = 2400
+
+B: The recieved packet with seq = 100 , data: ffffffffffffffffffff checksum = 2220 is in order and not corrupt
+
+B: Saving data: ffffffffffffffffffff
+
+B: Sending Acknowldegement with seq = 100 and ack = 100
+
+A: buffering message with data: jjjjjjjjjjjjjjjjjjjj
+
+A: Can't send this message as the window is full
+
+ Simulator terminated at time 60.838638
+ after sending 10 msgs from layer5

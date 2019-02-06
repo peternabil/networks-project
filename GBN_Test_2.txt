@@ -1,0 +1,263 @@
+-----  Stop and Wait Network Simulator Version 1.1 -------- 
+
+Enter the number of messages to simulate: Enter  packet loss probability [enter 0.0 for no loss]:Enter packet corruption probability [0.0 for no corruption]:Enter average time between messages from sender's layer5 [ > 0.0]:Enter TRACE:A: buffering message with data: aaaaaaaaaaaaaaaaaaaa
+
+A: sending packet with seq = 0 ack = 0 data: aaaaaaaaaaaaaaaaaaaa checksum = 1940
+
+A: Starting the window time
+
+A: buffering message with data: bbbbbbbbbbbbbbbbbbbb
+
+A: sending packet with seq = 20 ack = 0 data: bbbbbbbbbbbbbbbbbbbb checksum = 1980
+
+B: The recieved packet with seq = 20 , data: bbbbbbbbbbbbbbbbbbbb checksum = 1980 is either out of order or corrupt
+
+B: Sending Non Acknowledgement with seq = 0 and ack = 0
+
+A: buffering message with data: cccccccccccccccccccc
+
+A: sending packet with seq = 40 ack = 20 data: cccccccccccccccccccc checksum = 2040
+
+A: buffering message with data: dddddddddddddddddddd
+
+A: sending packet with seq = 60 ack = 40 data: dddddddddddddddddddd checksum = 2100
+
+B: The recieved packet with seq = 40 , data: cccccccccccccccccccc checksum = 2040 is either out of order or corrupt
+
+B: Sending Non Acknowledgement with seq = 0 and ack = 20
+
+A: buffering message with data: eeeeeeeeeeeeeeeeeeee
+
+A: sending packet with seq = 80 ack = 60 data: eeeeeeeeeeeeeeeeeeee checksum = 2160
+
+A: buffering message with data: ffffffffffffffffffff
+
+A: sending packet with seq = 100 ack = 80 data: ffffffffffffffffffff checksum = 2220
+
+B: The recieved packet with seq = 60 , data: dddddddddddddddddddd checksum = 2100 is either out of order or corrupt
+
+B: Sending Non Acknowledgement with seq = 0 and ack = 40
+
+A: Recieved Non-Acknowledgement with seq = 0 ack = 20
+
+B: The recieved packet with seq = 80 , data: eeeeeeeeeeeeeeeeeeee checksum = 2160 is either out of order or corrupt
+
+B: Sending Non Acknowledgement with seq = 0 and ack = 60
+
+A: Recieved Non-Acknowledgement with seq = 0 ack = 40
+
+A: buffering message with data: gggggggggggggggggggg
+
+A: sending packet with seq = 120 ack = 100 data: gggggggggggggggggggg checksum = 2280
+
+A: buffering message with data: hhhhhhhhhhhhhhhhhhhh
+
+A: sending packet with seq = 140 ack = 120 data: hhhhhhhhhhhhhhhhhhhh checksum = 2340
+
+A: Recieved Non-Acknowledgement with seq = 0 ack = 60
+
+B: The recieved packet with seq = 120 , data: gggggggggggggggggggg checksum = 2280 is either out of order or corrupt
+
+B: Sending Non Acknowledgement with seq = 0 and ack = 100
+
+A: Recieved Non-Acknowledgement with seq = 0 ack = 100
+
+A: buffering message with data: iiiiiiiiiiiiiiiiiiii
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: jjjjjjjjjjjjjjjjjjjj
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: kkkkkkkkkkkkkkkkkkkk
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: llllllllllllllllllll
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: mmmmmmmmmmmmmmmmmmmm
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: nnnnnnnnnnnnnnnnnnnn
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: oooooooooooooooooooo
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: pppppppppppppppppppp
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: qqqqqqqqqqqqqqqqqqqq
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: rrrrrrrrrrrrrrrrrrrr
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: ssssssssssssssssssss
+
+A: Can't send this message as the window is full
+
+A: Time is up resending all packets in the window
+
+B: The recieved packet with seq = 0 , data: aaaaaaaaaaaaaaaaaaaa checksum = 1940 is in order and not corrupt
+
+B: Saving data: aaaaaaaaaaaaaaaaaaaa
+
+B: Sending Acknowldegement with seq = 0 and ack = 0
+
+A: buffering message with data: tttttttttttttttttttt
+
+A: Can't send this message as the window is full
+
+A: Acknowledgement recieved with seq = 0 ack = 0 checksum = 0
+
+Warning: unable to cancel your timer. It wasn't running.
+B: The recieved packet with seq = 40 , data: cccccccccccccccccccc checksum = 2040 is either out of order or corrupt
+
+B: Sending Non Acknowledgement with seq = 20 and ack = 20
+
+A: Recieved Non-Acknowledgement with seq = 20 ack = 20
+
+B: The recieved packet with seq = 80 , data: eeeeeeeeeeeeeeeeeeee checksum = 2160 is either out of order or corrupt
+
+B: Sending Non Acknowledgement with seq = 20 and ack = 60
+
+A: buffering message with data: uuuuuuuuuuuuuuuuuuuu
+
+A: Can't send this message as the window is full
+
+B: The recieved packet with seq = 100 , data: ffffffffffffffffffff checksum = 2220 is either out of order or corrupt
+
+B: Sending Non Acknowledgement with seq = 20 and ack = 80
+
+A: buffering message with data: vvvvvvvvvvvvvvvvvvvv
+
+A: Can't send this message as the window is full
+
+A: Recieved Non-Acknowledgement with seq = 20 ack = 60
+
+A: Recieved Non-Acknowledgement with seq = 20 ack = 80
+
+A: buffering message with data: wwwwwwwwwwwwwwwwwwww
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: xxxxxxxxxxxxxxxxxxxx
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: yyyyyyyyyyyyyyyyyyyy
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: zzzzzzzzzzzzzzzzzzzz
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: aaaaaaaaaaaaaaaaaaaa
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: bbbbbbbbbbbbbbbbbbbb
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: cccccccccccccccccccc
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: dddddddddddddddddddd
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: eeeeeeeeeeeeeeeeeeee
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: ffffffffffffffffffff
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: gggggggggggggggggggg
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: hhhhhhhhhhhhhhhhhhhh
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: iiiiiiiiiiiiiiiiiiii
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: jjjjjjjjjjjjjjjjjjjj
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: kkkkkkkkkkkkkkkkkkkk
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: llllllllllllllllllll
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: mmmmmmmmmmmmmmmmmmmm
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: nnnnnnnnnnnnnnnnnnnn
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: oooooooooooooooooooo
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: pppppppppppppppppppp
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: qqqqqqqqqqqqqqqqqqqq
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: rrrrrrrrrrrrrrrrrrrr
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: ssssssssssssssssssss
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: tttttttttttttttttttt
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: uuuuuuuuuuuuuuuuuuuu
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: vvvvvvvvvvvvvvvvvvvv
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: wwwwwwwwwwwwwwwwwwww
+
+A: Can't send this message as the window is full
+
+A: buffering message with data: xxxxxxxxxxxxxxxxxxxx
+
+A: Can't send this message as the window is full
+
+ Simulator terminated at time 519.242310
+ after sending 50 msgs from layer5

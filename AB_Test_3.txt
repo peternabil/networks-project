@@ -1,0 +1,45 @@
+-----  Stop and Wait Network Simulator Version 1.1 -------- 
+
+Enter the number of messages to simulate: Enter  packet loss probability [enter 0.0 for no loss]:Enter packet corruption probability [0.0 for no corruption]:Enter average time between messages from sender's layer5 [ > 0.0]:Enter TRACE:A: sending a packet with seq 0 with data = aaaaaaaaaaaaaaaaaaaa , checksum = 1940
+
+B: received packet with seq = 0 , data: aaaaaaaaaaaaaaaaaaaa and checksum = 1940
+
+B: saving data : aaaaaaaaaaaaaaaaaaaa 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = bbbbbbbbbbbbbbbbbbbb , checksum = 1961
+
+B: received packet with seq = 1 data: bbbbbbbbbbbbbbbbbbbb checksum = 1961
+B: packet is out of order
+B: sending Non acknowledgment with seq = 1 , ack = 1 checksum = 2
+A: An NACK for packet with seq 1 is recieved and checksum = 2
+
+A: Can't send this data, there's an unknowledged packet
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = bbbbbbbbbbbbbbbbbbbbü , checksum = 1960
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = bbbbbbbbbbbbbbbbbbbbü , checksum = 1961
+
+B: received packet with seq = 1 , data: bbbbbbbbbbbbbbbbbbbb and checksum = 1961
+
+B: saving data : bbbbbbbbbbbbbbbbbbbb 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: Can't send this data, there's an unknowledged packet
+
+A: Can't send this data, there's an unknowledged packet
+
+A: Can't send this data, there's an unknowledged packet
+
+A: Can't send this data, there's an unknowledged packet
+
+A: Can't send this data, there's an unknowledged packet
+
+A: Can't send this data, there's an unknowledged packet
+
+A: Can't send this data, there's an unknowledged packet
+
+ Simulator terminated at time 125.719048
+ after sending 10 msgs from layer5

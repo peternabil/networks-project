@@ -1,0 +1,8 @@
+Alternating Bit
+
+A_Output():
+packet : seqno = 0, ackno = 0, payload = msg, checksum = 1's complement of the addition of the binary values of all the fields
+
+
+
+7 32 bit arrays ack , seq , 5 message

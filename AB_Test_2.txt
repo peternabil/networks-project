@@ -1,0 +1,716 @@
+-----  Stop and Wait Network Simulator Version 1.1 -------- 
+
+Enter the number of messages to simulate: Enter  packet loss probability [enter 0.0 for no loss]:Enter packet corruption probability [0.0 for no corruption]:Enter average time between messages from sender's layer5 [ > 0.0]:Enter TRACE:A: sending a packet with seq 0 with data = aaaaaaaaaaaaaaaaaaaa , checksum = 1940
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = aaaaaaaaaaaaaaaaaaaaé , checksum = 1941
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = aaaaaaaaaaaaaaaaaaaaé , checksum = 1940
+
+B: received packet with seq = 0 , data: aaaaaaaaaaaaaaaaaaaa and checksum = 1940
+
+B: saving data : aaaaaaaaaaaaaaaaaaaa 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = bbbbbbbbbbbbbbbbbbbb , checksum = 1961
+
+B: received packet with seq = 1 , data: bbbbbbbbbbbbbbbbbbbb and checksum = 1961
+
+B: saving data : bbbbbbbbbbbbbbbbbbbb 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = cccccccccccccccccccc , checksum = 1980
+
+B: received packet with seq = 0 , data: cccccccccccccccccccc and checksum = 1980
+
+B: saving data : cccccccccccccccccccc 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = dddddddddddddddddddd , checksum = 2001
+
+B: received packet with seq = 1 , data: dddddddddddddddddddd and checksum = 2001
+
+B: saving data : dddddddddddddddddddd 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = eeeeeeeeeeeeeeeeeeee , checksum = 2020
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = eeeeeeeeeeeeeeeeeeeeé , checksum = 2021
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = eeeeeeeeeeeeeeeeeeeeé , checksum = 2020
+
+B: received packet with seq = 0 , data: eeeeeeeeeeeeeeeeeeee and checksum = 2020
+
+B: saving data : eeeeeeeeeeeeeeeeeeee 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = ffffffffffffffffffff , checksum = 2041
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = ffffffffffffffffffffé , checksum = 2040
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = ffffffffffffffffffffé , checksum = 2041
+
+B: received packet with seq = 1 , data: ffffffffffffffffffff and checksum = 2041
+
+B: saving data : ffffffffffffffffffff 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = gggggggggggggggggggg , checksum = 2060
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = ggggggggggggggggggggé , checksum = 2061
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = ggggggggggggggggggggé , checksum = 2060
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = ggggggggggggggggggggé , checksum = 2061
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = ggggggggggggggggggggé , checksum = 2060
+
+B: received packet with seq = 0 , data: gggggggggggggggggggg and checksum = 2060
+
+B: saving data : gggggggggggggggggggg 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: Timer goes off
+A: sending a packet with seq 1 with data = ggggggggggggggggggggé , checksum = 2061
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = ggggggggggggggggggggé , checksum = 2060
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = ggggggggggggggggggggé , checksum = 2061
+
+B: received packet with seq = 1 , data: gggggggggggggggggggg and checksum = 2061
+
+B: saving data : gggggggggggggggggggg 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: Timer goes off
+A: sending a packet with seq 0 with data = ggggggggggggggggggggé , checksum = 2060
+
+B: received packet with seq = 0 , data: gggggggggggggggggggg and checksum = 2060
+
+B: saving data : gggggggggggggggggggg 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: Timer goes off
+A: sending a packet with seq 1 with data = ggggggggggggggggggggé , checksum = 2061
+
+B: received packet with seq = 1 , data: gggggggggggggggggggg and checksum = 2061
+
+B: saving data : gggggggggggggggggggg 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = hhhhhhhhhhhhhhhhhhhh , checksum = 2080
+
+B: received packet with seq = 0 , data: hhhhhhhhhhhhhhhhhhhh and checksum = 2080
+
+B: saving data : hhhhhhhhhhhhhhhhhhhh 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = iiiiiiiiiiiiiiiiiiii , checksum = 2101
+
+B: received packet with seq = 1 , data: iiiiiiiiiiiiiiiiiiii and checksum = 2101
+
+B: saving data : iiiiiiiiiiiiiiiiiiii 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: Timer goes off
+A: sending a packet with seq 0 with data = iiiiiiiiiiiiiiiiiiiié , checksum = 2100
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = iiiiiiiiiiiiiiiiiiiié , checksum = 2101
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = iiiiiiiiiiiiiiiiiiiié , checksum = 2100
+
+B: received packet with seq = 0 , data: iiiiiiiiiiiiiiiiiiii and checksum = 2100
+
+B: saving data : iiiiiiiiiiiiiiiiiiii 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: Timer goes off
+A: sending a packet with seq 1 with data = iiiiiiiiiiiiiiiiiiiié , checksum = 2101
+
+B: received packet with seq = 1 , data: iiiiiiiiiiiiiiiiiiii and checksum = 2101
+
+B: saving data : iiiiiiiiiiiiiiiiiiii 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = jjjjjjjjjjjjjjjjjjjj , checksum = 2120
+
+B: received packet with seq = 0 , data: jjjjjjjjjjjjjjjjjjjj and checksum = 2120
+
+B: saving data : jjjjjjjjjjjjjjjjjjjj 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = kkkkkkkkkkkkkkkkkkkk , checksum = 2141
+
+B: received packet with seq = 1 , data: kkkkkkkkkkkkkkkkkkkk and checksum = 2141
+
+B: saving data : kkkkkkkkkkkkkkkkkkkk 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = llllllllllllllllllll , checksum = 2160
+
+B: received packet with seq = 0 , data: llllllllllllllllllll and checksum = 2160
+
+B: saving data : llllllllllllllllllll 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: Timer goes off
+A: sending a packet with seq 1 with data = llllllllllllllllllllé , checksum = 2161
+
+B: received packet with seq = 1 , data: llllllllllllllllllll and checksum = 2161
+
+B: saving data : llllllllllllllllllll 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = mmmmmmmmmmmmmmmmmmmm , checksum = 2180
+
+B: received packet with seq = 0 , data: mmmmmmmmmmmmmmmmmmmm and checksum = 2180
+
+B: saving data : mmmmmmmmmmmmmmmmmmmm 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = nnnnnnnnnnnnnnnnnnnn , checksum = 2201
+
+B: received packet with seq = 1 , data: nnnnnnnnnnnnnnnnnnnn and checksum = 2201
+
+B: saving data : nnnnnnnnnnnnnnnnnnnn 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: Timer goes off
+A: sending a packet with seq 0 with data = nnnnnnnnnnnnnnnnnnnné , checksum = 2200
+
+B: received packet with seq = 0 , data: nnnnnnnnnnnnnnnnnnnn and checksum = 2200
+
+B: saving data : nnnnnnnnnnnnnnnnnnnn 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = oooooooooooooooooooo , checksum = 2221
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = ooooooooooooooooooooé , checksum = 2220
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = ooooooooooooooooooooé , checksum = 2221
+
+B: received packet with seq = 1 , data: oooooooooooooooooooo and checksum = 2221
+
+B: saving data : oooooooooooooooooooo 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = pppppppppppppppppppp , checksum = 2240
+
+B: received packet with seq = 0 , data: pppppppppppppppppppp and checksum = 2240
+
+B: saving data : pppppppppppppppppppp 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = qqqqqqqqqqqqqqqqqqqq , checksum = 2261
+
+B: received packet with seq = 1 , data: qqqqqqqqqqqqqqqqqqqq and checksum = 2261
+
+B: saving data : qqqqqqqqqqqqqqqqqqqq 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = rrrrrrrrrrrrrrrrrrrr , checksum = 2280
+
+B: received packet with seq = 0 , data: rrrrrrrrrrrrrrrrrrrr and checksum = 2280
+
+B: saving data : rrrrrrrrrrrrrrrrrrrr 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: Timer goes off
+A: sending a packet with seq 1 with data = rrrrrrrrrrrrrrrrrrrré , checksum = 2281
+
+B: received packet with seq = 1 , data: rrrrrrrrrrrrrrrrrrrr and checksum = 2281
+
+B: saving data : rrrrrrrrrrrrrrrrrrrr 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = ssssssssssssssssssss , checksum = 2300
+
+B: received packet with seq = 0 , data: ssssssssssssssssssss and checksum = 2300
+
+B: saving data : ssssssssssssssssssss 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = tttttttttttttttttttt , checksum = 2321
+
+B: received packet with seq = 1 , data: tttttttttttttttttttt and checksum = 2321
+
+B: saving data : tttttttttttttttttttt 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: Timer goes off
+A: sending a packet with seq 0 with data = tttttttttttttttttttté , checksum = 2320
+
+B: received packet with seq = 0 , data: tttttttttttttttttttt and checksum = 2320
+
+B: saving data : tttttttttttttttttttt 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = uuuuuuuuuuuuuuuuuuuu , checksum = 2341
+
+B: received packet with seq = 1 , data: uuuuuuuuuuuuuuuuuuuu and checksum = 2341
+
+B: saving data : uuuuuuuuuuuuuuuuuuuu 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: Timer goes off
+A: sending a packet with seq 0 with data = uuuuuuuuuuuuuuuuuuuué , checksum = 2340
+
+B: received packet with seq = 0 , data: uuuuuuuuuuuuuuuuuuuu and checksum = 2340
+
+B: saving data : uuuuuuuuuuuuuuuuuuuu 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = vvvvvvvvvvvvvvvvvvvv , checksum = 2361
+
+B: received packet with seq = 1 , data: vvvvvvvvvvvvvvvvvvvv and checksum = 2361
+
+B: saving data : vvvvvvvvvvvvvvvvvvvv 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: Timer goes off
+A: sending a packet with seq 0 with data = vvvvvvvvvvvvvvvvvvvvé , checksum = 2360
+
+B: received packet with seq = 0 , data: vvvvvvvvvvvvvvvvvvvv and checksum = 2360
+
+B: saving data : vvvvvvvvvvvvvvvvvvvv 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: Timer goes off
+A: sending a packet with seq 1 with data = vvvvvvvvvvvvvvvvvvvvé , checksum = 2361
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = vvvvvvvvvvvvvvvvvvvvé , checksum = 2360
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = vvvvvvvvvvvvvvvvvvvvé , checksum = 2361
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = vvvvvvvvvvvvvvvvvvvvé , checksum = 2360
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = vvvvvvvvvvvvvvvvvvvvé , checksum = 2361
+
+B: received packet with seq = 1 , data: vvvvvvvvvvvvvvvvvvvv and checksum = 2361
+
+B: saving data : vvvvvvvvvvvvvvvvvvvv 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = wwwwwwwwwwwwwwwwwwww , checksum = 2380
+
+B: received packet with seq = 0 , data: wwwwwwwwwwwwwwwwwwww and checksum = 2380
+
+B: saving data : wwwwwwwwwwwwwwwwwwww 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = xxxxxxxxxxxxxxxxxxxx , checksum = 2401
+
+B: received packet with seq = 1 , data: xxxxxxxxxxxxxxxxxxxx and checksum = 2401
+
+B: saving data : xxxxxxxxxxxxxxxxxxxx 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = yyyyyyyyyyyyyyyyyyyy , checksum = 2420
+
+B: received packet with seq = 0 , data: yyyyyyyyyyyyyyyyyyyy and checksum = 2420
+
+B: saving data : yyyyyyyyyyyyyyyyyyyy 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: Timer goes off
+A: sending a packet with seq 1 with data = yyyyyyyyyyyyyyyyyyyyé , checksum = 2421
+
+B: received packet with seq = 1 , data: yyyyyyyyyyyyyyyyyyyy and checksum = 2421
+
+B: saving data : yyyyyyyyyyyyyyyyyyyy 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = zzzzzzzzzzzzzzzzzzzz , checksum = 2440
+
+B: received packet with seq = 0 , data: zzzzzzzzzzzzzzzzzzzz and checksum = 2440
+
+B: saving data : zzzzzzzzzzzzzzzzzzzz 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = aaaaaaaaaaaaaaaaaaaa , checksum = 1941
+
+B: received packet with seq = 1 , data: aaaaaaaaaaaaaaaaaaaa and checksum = 1941
+
+B: saving data : aaaaaaaaaaaaaaaaaaaa 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = bbbbbbbbbbbbbbbbbbbb , checksum = 1960
+
+B: received packet with seq = 0 , data: bbbbbbbbbbbbbbbbbbbb and checksum = 1960
+
+B: saving data : bbbbbbbbbbbbbbbbbbbb 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: Timer goes off
+A: sending a packet with seq 1 with data = bbbbbbbbbbbbbbbbbbbbé , checksum = 1961
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = bbbbbbbbbbbbbbbbbbbbé , checksum = 1960
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = bbbbbbbbbbbbbbbbbbbbé , checksum = 1961
+
+B: received packet with seq = 1 , data: bbbbbbbbbbbbbbbbbbbb and checksum = 1961
+
+B: saving data : bbbbbbbbbbbbbbbbbbbb 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = cccccccccccccccccccc , checksum = 1980
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = ccccccccccccccccccccé , checksum = 1981
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = ccccccccccccccccccccé , checksum = 1980
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = ccccccccccccccccccccé , checksum = 1981
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = ccccccccccccccccccccé , checksum = 1980
+
+B: received packet with seq = 0 , data: cccccccccccccccccccc and checksum = 1980
+
+B: saving data : cccccccccccccccccccc 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = dddddddddddddddddddd , checksum = 2001
+
+B: received packet with seq = 1 , data: dddddddddddddddddddd and checksum = 2001
+
+B: saving data : dddddddddddddddddddd 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = eeeeeeeeeeeeeeeeeeee , checksum = 2020
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = eeeeeeeeeeeeeeeeeeeeé , checksum = 2021
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = eeeeeeeeeeeeeeeeeeeeé , checksum = 2020
+
+B: received packet with seq = 0 , data: eeeeeeeeeeeeeeeeeeee and checksum = 2020
+
+B: saving data : eeeeeeeeeeeeeeeeeeee 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: Timer goes off
+A: sending a packet with seq 1 with data = eeeeeeeeeeeeeeeeeeeeé , checksum = 2021
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = eeeeeeeeeeeeeeeeeeeeé , checksum = 2020
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = eeeeeeeeeeeeeeeeeeeeé , checksum = 2021
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = eeeeeeeeeeeeeeeeeeeeé , checksum = 2020
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = eeeeeeeeeeeeeeeeeeeeé , checksum = 2021
+
+B: received packet with seq = 1 , data: eeeeeeeeeeeeeeeeeeee and checksum = 2021
+
+B: saving data : eeeeeeeeeeeeeeeeeeee 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = ffffffffffffffffffff , checksum = 2040
+
+B: received packet with seq = 0 , data: ffffffffffffffffffff and checksum = 2040
+
+B: saving data : ffffffffffffffffffff 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: Timer goes off
+A: sending a packet with seq 1 with data = ffffffffffffffffffffé , checksum = 2041
+
+B: received packet with seq = 1 , data: ffffffffffffffffffff and checksum = 2041
+
+B: saving data : ffffffffffffffffffff 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = gggggggggggggggggggg , checksum = 2060
+
+B: received packet with seq = 0 , data: gggggggggggggggggggg and checksum = 2060
+
+B: saving data : gggggggggggggggggggg 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = hhhhhhhhhhhhhhhhhhhh , checksum = 2081
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = hhhhhhhhhhhhhhhhhhhhé , checksum = 2080
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = hhhhhhhhhhhhhhhhhhhhé , checksum = 2081
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = hhhhhhhhhhhhhhhhhhhhé , checksum = 2080
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = hhhhhhhhhhhhhhhhhhhhé , checksum = 2081
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = hhhhhhhhhhhhhhhhhhhhé , checksum = 2080
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = hhhhhhhhhhhhhhhhhhhhé , checksum = 2081
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = hhhhhhhhhhhhhhhhhhhhé , checksum = 2080
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = hhhhhhhhhhhhhhhhhhhhé , checksum = 2081
+
+B: received packet with seq = 1 , data: hhhhhhhhhhhhhhhhhhhh and checksum = 2081
+
+B: saving data : hhhhhhhhhhhhhhhhhhhh 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = iiiiiiiiiiiiiiiiiiii , checksum = 2100
+
+B: received packet with seq = 0 , data: iiiiiiiiiiiiiiiiiiii and checksum = 2100
+
+B: saving data : iiiiiiiiiiiiiiiiiiii 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = jjjjjjjjjjjjjjjjjjjj , checksum = 2121
+
+B: received packet with seq = 1 , data: jjjjjjjjjjjjjjjjjjjj and checksum = 2121
+
+B: saving data : jjjjjjjjjjjjjjjjjjjj 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = kkkkkkkkkkkkkkkkkkkk , checksum = 2140
+
+B: received packet with seq = 0 , data: kkkkkkkkkkkkkkkkkkkk and checksum = 2140
+
+B: saving data : kkkkkkkkkkkkkkkkkkkk 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: Timer goes off
+A: sending a packet with seq 1 with data = kkkkkkkkkkkkkkkkkkkké , checksum = 2141
+
+B: received packet with seq = 1 , data: kkkkkkkkkkkkkkkkkkkk and checksum = 2141
+
+B: saving data : kkkkkkkkkkkkkkkkkkkk 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = llllllllllllllllllll , checksum = 2160
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = llllllllllllllllllllé , checksum = 2161
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = llllllllllllllllllllé , checksum = 2160
+
+B: received packet with seq = 0 , data: llllllllllllllllllll and checksum = 2160
+
+B: saving data : llllllllllllllllllll 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: Timer goes off
+A: sending a packet with seq 1 with data = llllllllllllllllllllé , checksum = 2161
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = llllllllllllllllllllé , checksum = 2160
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = llllllllllllllllllllé , checksum = 2161
+
+B: received packet with seq = 1 , data: llllllllllllllllllll and checksum = 2161
+
+B: saving data : llllllllllllllllllll 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = mmmmmmmmmmmmmmmmmmmm , checksum = 2180
+
+B: received packet with seq = 0 , data: mmmmmmmmmmmmmmmmmmmm and checksum = 2180
+
+B: saving data : mmmmmmmmmmmmmmmmmmmm 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: Timer goes off
+A: sending a packet with seq 1 with data = mmmmmmmmmmmmmmmmmmmmé , checksum = 2181
+
+B: received packet with seq = 1 , data: mmmmmmmmmmmmmmmmmmmm and checksum = 2181
+
+B: saving data : mmmmmmmmmmmmmmmmmmmm 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: Timer goes off
+A: sending a packet with seq 0 with data = mmmmmmmmmmmmmmmmmmmmé , checksum = 2180
+
+B: received packet with seq = 0 , data: mmmmmmmmmmmmmmmmmmmm and checksum = 2180
+
+B: saving data : mmmmmmmmmmmmmmmmmmmm 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = nnnnnnnnnnnnnnnnnnnn , checksum = 2201
+
+B: received packet with seq = 1 , data: nnnnnnnnnnnnnnnnnnnn and checksum = 2201
+
+B: saving data : nnnnnnnnnnnnnnnnnnnn 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: Timer goes off
+A: sending a packet with seq 0 with data = nnnnnnnnnnnnnnnnnnnné , checksum = 2200
+
+B: received packet with seq = 0 , data: nnnnnnnnnnnnnnnnnnnn and checksum = 2200
+
+B: saving data : nnnnnnnnnnnnnnnnnnnn 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = oooooooooooooooooooo , checksum = 2221
+
+B: received packet with seq = 1 , data: oooooooooooooooooooo and checksum = 2221
+
+B: saving data : oooooooooooooooooooo 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = pppppppppppppppppppp , checksum = 2240
+
+B: received packet with seq = 0 , data: pppppppppppppppppppp and checksum = 2240
+
+B: saving data : pppppppppppppppppppp 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: Timer goes off
+A: sending a packet with seq 1 with data = ppppppppppppppppppppé , checksum = 2241
+
+B: received packet with seq = 1 , data: pppppppppppppppppppp and checksum = 2241
+
+B: saving data : pppppppppppppppppppp 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = qqqqqqqqqqqqqqqqqqqq , checksum = 2260
+
+B: received packet with seq = 0 , data: qqqqqqqqqqqqqqqqqqqq and checksum = 2260
+
+B: saving data : qqqqqqqqqqqqqqqqqqqq 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = rrrrrrrrrrrrrrrrrrrr , checksum = 2281
+
+B: received packet with seq = 1 , data: rrrrrrrrrrrrrrrrrrrr and checksum = 2281
+
+B: saving data : rrrrrrrrrrrrrrrrrrrr 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: Timer goes off
+A: sending a packet with seq 0 with data = rrrrrrrrrrrrrrrrrrrré , checksum = 2280
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = rrrrrrrrrrrrrrrrrrrré , checksum = 2281
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = rrrrrrrrrrrrrrrrrrrré , checksum = 2280
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = rrrrrrrrrrrrrrrrrrrré , checksum = 2281
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = rrrrrrrrrrrrrrrrrrrré , checksum = 2280
+
+A: Timer goes off
+A: sending a packet with seq 1 with data = rrrrrrrrrrrrrrrrrrrré , checksum = 2281
+
+A: Timer goes off
+A: sending a packet with seq 0 with data = rrrrrrrrrrrrrrrrrrrré , checksum = 2280
+
+B: received packet with seq = 0 , data: rrrrrrrrrrrrrrrrrrrr and checksum = 2280
+
+B: saving data : rrrrrrrrrrrrrrrrrrrr 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = ssssssssssssssssssss , checksum = 2301
+
+B: received packet with seq = 1 , data: ssssssssssssssssssss and checksum = 2301
+
+B: saving data : ssssssssssssssssssss 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = tttttttttttttttttttt , checksum = 2320
+
+B: received packet with seq = 0 , data: tttttttttttttttttttt and checksum = 2320
+
+B: saving data : tttttttttttttttttttt 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = uuuuuuuuuuuuuuuuuuuu , checksum = 2341
+
+B: received packet with seq = 1 , data: uuuuuuuuuuuuuuuuuuuu and checksum = 2341
+
+B: saving data : uuuuuuuuuuuuuuuuuuuu 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: Timer goes off
+A: sending a packet with seq 0 with data = uuuuuuuuuuuuuuuuuuuué , checksum = 2340
+
+B: received packet with seq = 0 , data: uuuuuuuuuuuuuuuuuuuu and checksum = 2340
+
+B: saving data : uuuuuuuuuuuuuuuuuuuu 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = vvvvvvvvvvvvvvvvvvvv , checksum = 2361
+
+B: received packet with seq = 1 , data: vvvvvvvvvvvvvvvvvvvv and checksum = 2361
+
+B: saving data : vvvvvvvvvvvvvvvvvvvv 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = wwwwwwwwwwwwwwwwwwww , checksum = 2380
+
+B: received packet with seq = 0 , data: wwwwwwwwwwwwwwwwwwww and checksum = 2380
+
+B: saving data : wwwwwwwwwwwwwwwwwwww 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = xxxxxxxxxxxxxxxxxxxx , checksum = 2401
+
+ Simulator terminated at time 578.040588
+ after sending 50 msgs from layer5

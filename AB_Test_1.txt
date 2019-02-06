@@ -1,0 +1,78 @@
+-----  Stop and Wait Network Simulator Version 1.1 -------- 
+
+Enter the number of messages to simulate: Enter  packet loss probability [enter 0.0 for no loss]:Enter packet corruption probability [0.0 for no corruption]:Enter average time between messages from sender's layer5 [ > 0.0]:Enter TRACE:A: sending a packet with seq 0 with data = aaaaaaaaaaaaaaaaaaaa , checksum = 1940
+
+B: received packet with seq = 0 , data: aaaaaaaaaaaaaaaaaaaa and checksum = 1940
+
+B: saving data : aaaaaaaaaaaaaaaaaaaa 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = bbbbbbbbbbbbbbbbbbbb , checksum = 1961
+
+B: received packet with seq = 1 , data: bbbbbbbbbbbbbbbbbbbb and checksum = 1961
+
+B: saving data : bbbbbbbbbbbbbbbbbbbb 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = cccccccccccccccccccc , checksum = 1980
+
+B: received packet with seq = 0 , data: cccccccccccccccccccc and checksum = 1980
+
+B: saving data : cccccccccccccccccccc 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = dddddddddddddddddddd , checksum = 2001
+
+B: received packet with seq = 1 , data: dddddddddddddddddddd and checksum = 2001
+
+B: saving data : dddddddddddddddddddd 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = eeeeeeeeeeeeeeeeeeee , checksum = 2020
+
+B: received packet with seq = 0 , data: eeeeeeeeeeeeeeeeeeee and checksum = 2020
+
+B: saving data : eeeeeeeeeeeeeeeeeeee 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = ffffffffffffffffffff , checksum = 2041
+
+B: received packet with seq = 1 , data: ffffffffffffffffffff and checksum = 2041
+
+B: saving data : ffffffffffffffffffff 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = gggggggggggggggggggg , checksum = 2060
+
+B: received packet with seq = 0 , data: gggggggggggggggggggg and checksum = 2060
+
+B: saving data : gggggggggggggggggggg 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = hhhhhhhhhhhhhhhhhhhh , checksum = 2081
+
+B: received packet with seq = 1 , data: hhhhhhhhhhhhhhhhhhhh and checksum = 2081
+
+B: saving data : hhhhhhhhhhhhhhhhhhhh 
+B: sending Acknowledgment with seq = 1 , ack = 0 checksum = 1
+A: An ACK for packet with seq 1 is recieved and checksum = 1
+
+A: sending a packet with seq 0 with data = iiiiiiiiiiiiiiiiiiii , checksum = 2100
+
+B: received packet with seq = 0 , data: iiiiiiiiiiiiiiiiiiii and checksum = 2100
+
+B: saving data : iiiiiiiiiiiiiiiiiiii 
+B: sending Acknowledgment with seq = 0 , ack = 0 checksum = 0
+A: An ACK for packet with seq 0 is recieved and checksum = 0
+
+A: sending a packet with seq 1 with data = jjjjjjjjjjjjjjjjjjjj , checksum = 2121
+
+ Simulator terminated at time 54.447807
+ after sending 10 msgs from layer5
